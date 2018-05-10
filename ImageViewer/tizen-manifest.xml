@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.imageviewer" version="1.0.0">
+    <description>View an image</description>
+    <profile name="wearable"/>
+    <widget-application appid="org.example.imageviewer" exec="imageviewer" main="true" update-period="0">
+        <label>imageviewer</label>
+        <icon>icon.png</icon>
+        <support-size preview="icon.png">2x2</support-size>
+    </widget-application>
+</manifest>
